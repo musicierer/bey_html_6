@@ -1,0 +1,1287 @@
+body
+{
+    font-family: "Lucida Sans Unicode", arial;
+    line-height: 1;
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+* input
+{
+    outline: none;
+}
+
+header:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.phone_number
+{
+    float: left;
+    font-size: 16px;
+    color: rgb(94, 105, 109);
+    line-height: 1.415;
+    margin-right: 10px;
+}
+
+.phone_number p
+{
+    padding-left: 32px;
+    font-size: 18px;
+    font-family: arial;
+    padding-top: 2px;
+}
+
+.phone_number:before
+{
+    content: "";
+    display: block;
+    position: relative;
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 33px;
+    left:7px;
+}
+
+.entering_form
+{
+    float: left;
+    margin-top: 28px;
+    margin-left: 8px;
+    width: 496px;
+    height: 27px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    box-shadow: 1.5px 2.598px 3px 0px rgba(150, 150, 150, 0.294);
+}
+
+.entering_form:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url("../img/authorization.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.entering_form input
+{
+    font-size: 11px;
+    margin-top: 3px;
+    margin-left: 26px;
+    padding-left: 3px;
+    width: 109px;
+    height: 15px;
+    border: 1px solid #82949c;
+    border-radius: 2px;
+}
+
+#password-field
+{
+    margin-left: 2px;
+}
+
+.form-links
+{
+    position: relative;
+    bottom: 26px;
+    left: 261px;
+}
+
+.form-links a
+{
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-links a:hover
+{
+    text-decoration: underline;
+    color: #bfbfbf;
+}
+
+.form-links li
+{
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 3px;
+}
+
+.form-links .enter
+{
+    margin-left: 6px;
+}
+
+.enter:after
+{
+    content: "";
+    display: block;
+    position: relative;
+    border-right: 1px solid #ffffff;
+    width: 1px;
+    height: 11px;
+    bottom: 11px;
+    left: 32px;
+}
+
+.shape
+{
+    position: relative;
+    left: 511px;
+    top: -56px;
+    width: 78px;
+    height: 23px;
+}
+
+.shape:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    background:
+    url("../img/home.png") -2px 4px no-repeat,
+    url("../img/map.png") 15px 7px no-repeat,
+    url("../img/letter.png") 37px 7px no-repeat;
+    width: 60px;
+    height: 30px;
+    left: 14px;
+    
+}
+
+.main-logo img
+{
+    margin-top: 9px;
+}
+
+.main-navigation:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-navigation
+{
+    margin-top: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(13, 22, 66);
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #4d5663, #010101);
+    box-shadow: 1.5px 2.598px 5px 0px rgba(0, 0, 0, 0.294);
+    width: 908px;
+    height: 31px;
+}
+
+.main-navigation li
+{
+    float: left;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.main-navigation ul
+{
+    margin-left: 131px;
+}
+
+.main-navigation a
+{
+    color: #a2acb0;
+    text-decoration: none;
+    padding: 2px 15px 2px 15px;
+    font-size: 14px;
+}
+
+.main-navigation a:hover
+{
+    width: 125px;
+    height: 26px;
+    background-image: linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.main-navigation p
+{
+    float: right;
+    display: inline-block;
+    margin-top: 10px; 
+    margin-right: 9px;
+    color: #798084;
+    font-size: 11px;
+}
+
+.count
+{
+    margin-right: 2px;
+}
+
+.basket:after
+{
+    content: "";
+    display: table;
+    position: relative;
+    background: url("../img/basket.png");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 15px;
+    left: 153px;
+    bottom: 15px;
+
+}
+
+.count_item
+{
+    color: #0d5a8f;
+    margin-right: 3px;
+}
+
+.count_p {
+    margin-left: 11px;
+    margin-right: 15px;
+}
+
+.left-form
+{
+    float: left;
+    width: 414px;
+    height: 132px;
+    margin-top: 7px;
+    margin-left: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(156, 156, 157);
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.title-form ul li
+{
+    display: inline-block;
+}
+
+.title-form .title-form-disks,
+.title-form .title-form-tyres
+{
+    font-size: 11px;
+}
+
+.title-form .title-form-disks
+{
+    position: relative;
+    left: 21px;
+}
+
+.title-form .title-form-auto
+{
+    position: relative;
+    font-size: 14px;
+    left: 81px;
+    bottom: 2px;
+}
+
+.title-form .title-form-tyres
+{
+    position: relative;
+    left: 147px;
+    bottom: 2px;
+}
+
+.title-form .title-form-disks,
+.title-form .title-form-auto,
+.title-form .title-form-tyres
+{
+    font-family: Arial;
+    color: #154468;
+    font-weight: 700;
+}
+
+.content-form-left
+{
+   float: left;
+   margin-left: 15px;
+}
+
+.content-form-left label,
+.content-form-right label
+{
+    float: left;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 4px;
+}
+
+.content-form-left .content-form-item,
+.content-form-right .content-form-item
+{
+    color: #b5bcbf;
+}
+
+.content-form-left li input,
+.content-form-right li input
+{
+    width: 101px;
+    height: 17px;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    border: none;
+    margin-left: -4px;
+}
+
+.content-form-left li input:focus,
+.content-form-right li input:focus
+{
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content-form-left .content-form-object .butt,
+.content-form-right .content-form-object .butt
+{
+    position: relative;
+    left: 103px;
+    top: 2px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+}
+
+.content-form-left .content-form-object .butt-year,
+.content-form-right .content-form-object .butt-year
+{
+    position: relative;
+    left: 59px;
+    top: 2px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+}
+
+.content-form-left .content-form-object .butt:active,
+.content-form-right .content-form-object .butt:active
+{
+    background: url("../img/butt-act.png");
+}
+
+.content-form-left .content-form-object .butt-year:active,
+.content-form-right .content-form-object .butt-year:active
+{
+    background: url("../img/butt-act.png");
+}
+
+.content-form-left .content-form-object,
+.content-form-right .content-form-object
+{
+    clear: both;
+    text-align: right;
+}
+
+#avto-year
+{
+    width: 58px;
+    margin-right: 43px;
+}
+
+.content-form-right
+{
+    float: right;
+    margin-right: 14px;
+}
+
+.label-item
+{
+    margin-top: 7px;
+    margin-right: -12px;
+}
+
+.search
+{
+    position: relative;
+    margin-left: 343px;
+    margin-top: 87px;
+}
+
+.search a
+{
+    color: #154467;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.midle-form
+{
+    float: left;
+    margin-top: 7px;
+    margin-left: 13px;
+    width: 190px;
+    height: 134px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(156, 156, 157);
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px 0px rgba(150, 150, 150, 0.75);
+}
+
+.midle-form p
+{
+    color: #114165;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 2px 0 7px 10px;
+}
+
+.midle-form .field label
+{
+    font-size: 10px;
+    float: left;
+    margin: 7px -9px 0 13px;
+}
+
+.midle-form .field-radius label
+{
+    font-size: 10px;
+}
+
+.midle-form .field input 
+{
+    float: left;
+    width: 50px;
+    height: 17px;
+    border: none;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    padding-left: 2px;
+    margin-right: -1px;
+    font-size: 12px;
+}
+
+.midle-form .field input:focus,
+.midle-form .field-radius input:focus
+{
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.midle-form .field .field-item .butt
+{   
+    position: relative;
+    left: 52px;
+    top: 1px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+}
+
+.midle-form .field:after
+{
+    content: "/";
+    display: table;
+    position: relative;
+    bottom: 21px;
+    left: 114px;
+}
+
+.midle-form .field .field-item:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.midle-form .field-radius
+{
+    margin-left: 16px;
+    margin-bottom: 5px;
+    margin-top: -4px;
+}
+
+.midle-form .field .butt:active,
+.midle-form .field-radius .butt:active
+{
+    background: url("../img/butt-act.png");
+}
+
+.midle-form .field-radius input 
+{
+    position: relative;
+    font-size: 12px;
+    bottom: 9px;
+    width: 42px;
+    height: 17px;
+    border: none;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    margin-left: 32px;
+    padding-left: 1px;
+}
+
+.midle-form .field-radius label
+{
+    position: relative;
+    margin-left: 30px;
+    margin-right: -30px;
+    bottom: 10px;
+}
+
+.midle-form .field-radius .butt
+{
+    position: relative;
+    right: 53px;
+    top: -7px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+    outline: none;
+}
+
+.midle-form .season p
+{
+    font-size: 10px;
+    margin-left: 13px;
+    margin-top: -11px;
+}
+
+.midle-form .season .season-checkbox
+{
+    position: relative;
+    margin-left: 33px;
+    bottom: 23px;
+}
+
+.midle-form .season .season-checkbox label
+{
+    display: inline-block;
+    font-size: 12px;   
+}
+
+.season-checkbox input[type="checkbox"]
+{
+    display: none;
+}
+
+.season-checkbox input[type="checkbox"] + label 
+{
+    display: block;
+    padding-left: 38px;
+    position: relative;
+    cursor: pointer;
+}
+
+.season-checkbox input[type="checkbox"] + label:before
+{
+    content: "";
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+}
+
+.midle-search
+{
+    position: relative;
+    bottom: 14px;
+    left: 108px;
+}
+
+.midle-search a
+{
+    color: #154467;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.right-form
+{
+    float: left;
+    width: 266px;
+    height: 133px;
+    margin-left: 10px;
+    margin-top: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(156, 156, 157);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px 0px rgba(150, 150, 150, 0.75);
+}
+
+.right-form .disk-find
+{
+    color: #114165;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 9px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.disc-diameter input,
+.hole-location input
+{
+    width: 53px;
+    height: 17px;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    border: none;
+    padding-left: 4px;
+}
+
+.hole-location input
+{
+    position: relative;
+    top: 13px;
+    left: 6px;
+}
+
+.disc-diameter input:focus,
+.hole-location input:focus
+{
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.disc-diameter label,
+.mounting-holes label,
+.hole-location label
+{
+    font-size: 10px;
+    margin-left: 17px;
+    margin-right:  1px;
+}
+
+.disc-diameter
+{
+    margin-bottom: 1px;
+}
+
+.disc-diameter label
+{
+    margin-right: 5px;
+}
+
+.mounting-holes:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mounting-holes label
+{
+    float: left;
+    margin-right: 27px;
+}
+
+.hole-location label
+{
+    float: left;
+    margin-right: 12px;
+}
+
+.disc-diameter .field-find-item,
+.mounting-holes .field-find-item,
+.hole-location .field-find-item
+{
+     color: #b5bcbf;
+}
+
+.disc-diameter .butt
+{
+    position: relative;
+    right: 22px;
+    top: 3px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+    outline: none;
+}
+
+.hole-location .butt-location
+{
+    position: relative;
+    left: -14px;
+    top: 15px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+    outline: none;
+}
+
+.mounting-holes .butt-holes
+{
+    position: relative;
+    right: 23px;
+    top: 13px;
+    width: 17px;
+    height: 17px;
+    background: url("../img/butt.png");
+    outline: none;
+}
+
+.disc-diameter .butt:active,
+.hole-location .butt:active
+{
+    background: url("../img/butt-act.png");
+}
+
+.mounting-holes .butt:active
+{
+    background: url("../img/butt-act.png");
+}
+
+.mounting-holes input
+{
+    position: relative;
+    top: 11px;
+    width: 39px;
+    height: 17px;
+    padding-left: 5px;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    border: none;
+    margin-left: 7px;
+}
+
+.mounting-holes input:focus
+{
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.field-find:after
+{
+    content: "";
+    display: table;
+    position: relative;
+    border-right: 1px solid #bdc6ca;
+    height: 108px;
+    left: 176px;
+    bottom: 152px;
+}
+
+.field-find .central-hole input,
+.field-find .disc-protrusion input
+{
+    width: 52px;
+    height: 17px;
+    padding-left: 2px;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    border: none;
+    margin-left: 8px;
+}
+
+.field-find .central-hole label,
+.field-find .disc-protrusion label
+{
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+.field-find .central-hole p
+{
+    font-size: 8px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+
+.field-find .central-hole,
+.field-find .disc-protrusion
+{
+    position: relative;
+    margin-left: 180px;
+    bottom: 93px;
+    width: 100px;
+}
+
+.field-find .disc-protrusion
+{
+    margin-bottom: -48px;
+}
+
+.field-find .central-hole .field-find-item,
+.field-find .disc-protrusion .field-find-item
+{
+    color: #b5bcbf;
+}
+
+.field-find .central-hole .butt,
+.field-find .disc-protrusion .butt
+{
+    position: relative;
+    right: 27px;
+    top: 2px;
+    width: 17px;
+    height: 17px;
+    background: url(../img/butt.png);
+    outline: none;
+}
+
+.field-find .central-hole .butt:active,
+.field-find .disc-protrusion .butt:active
+{
+    background: url("../img/butt-act.png");
+}
+
+.right-search
+{
+    position: relative;
+    bottom: 154px;
+    left: 199px;
+}
+
+.right-search a
+{
+    color: #154467;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.forms:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column
+{
+    float: left;
+    margin-top: 9px;
+}
+
+.product-catalog
+{
+    position: relative;
+    top: 9px;
+    width: 177px;
+    height: 18px;
+    box-shadow: 1.5px 2.598px 3px 0px rgba(150, 150, 150, 0.294);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(121, 135, 141);
+    border-radius: 13px;
+    font-size: 13px;
+    color: #114165;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 3px;
+    margin-bottom: 18px;
+}
+
+.product-catalog:before
+{
+    content: "";
+    display: table;
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    background: url("../img/paper.png") no-repeat;
+    bottom: 2px;
+}
+
+.left-column
+{
+    width: 191px;
+    float: left;
+}
+
+.left-column .tyres,
+.left-column .wheels,
+.left-column .bolts
+{
+    position: relative;
+    top: 4px;
+    width: 120px;
+    height: 21px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(121, 135, 141);
+    border-radius: 13px;
+    font-size: 14px;
+    color: #114165;
+    padding-left: 30px;
+    padding-top: 7px;
+    margin-bottom: 3px;
+}
+
+.left-column .tyres:before,
+.left-column .wheels:before,
+.left-column .bolts:before
+{
+    content: "";
+    display: table;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: url("../img/tyre.png") no-repeat;
+    bottom: 4px;
+    left: 3px;
+}
+
+.tyres-items li,
+.wheels-items li,
+.bolts-items li
+{
+    list-style-type: circle;
+    margin-left: 48px;
+}
+
+.tyres-items li:nth-child(1),
+.tyres-items li:nth-child(2),
+.tyres-items li:nth-child(3)
+{
+    margin-bottom: 10px;
+}
+
+.wheels-items li:nth-child(1),
+.wheels-items li:nth-child(2),
+.wheels-items li:nth-child(3)
+{
+    margin-bottom: 10px;
+}
+
+.bolts-items li:nth-child(1),
+.bolts-items li:nth-child(2),
+.bolts-items li:nth-child(3)
+{
+    margin-bottom: 10px;
+}
+
+.tyres-items li a,
+.wheels-items li a,
+.bolts-items li a
+{
+    color: #79878d;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.tyres-items li a:hover,
+.wheels-items li a:hover,
+.bolts-items li a:hover
+{
+    color: #0c3256;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.midle-column
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    float: left;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #e4e7e8, #93a7b0);
+    width: 527px;
+    height: 628px;
+    margin-top: 15px;
+}
+
+.midle-column .first-row
+{
+    margin-top: 14px;
+}
+
+.midle-column .first-row .third-tyre
+{
+    margin-right: 12px;
+}
+
+.midle-column .second-row
+{
+    margin-top: -4px;
+}
+
+.first-tyre .left-tyre,
+.second-tyre .midle-tyre,
+.third-tyre .third-tyre
+{
+    position: relative;
+    width: 137px;
+    height: 128px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.first-tyre .left-tyre img,
+.second-tyre .midle-tyre img,
+.third-tyre .third-tyre img
+{
+    position: relative;
+    left: 31px;
+    top: 5px;
+}
+
+.first-tyre .first-tyre-items,
+.second-tyre .second-tyre-items,
+.third-tyre .third-tyre-items
+{
+    font-size: 13px;
+    text-align: center;
+}
+
+.first-tyre-item,
+.second-tyre-item,
+.third-tyre-item
+{
+    color: #206988;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 14px;
+    font-weight: 700;
+}
+
+.first-tyre .tyre-price,
+.second-tyre .tyre-price,
+.third-tyre .tyre-price
+{
+    color: #114165;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.right-column
+{
+    float: right;
+    margin-right: 92px;
+}
+
+.right-column ul li
+{
+    list-style: none;
+}
+
+.brands
+{
+    position: relative;
+    margin-top: 17px;
+    width: 149px;
+    height: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(121, 135, 141);
+    box-shadow: 1.5px 2.598px 3px 0px rgba(150, 150, 150, 0.294);
+    border-radius: 13px;
+    font-size: 14px;
+    color: #114165;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.right-column .brands:before
+{
+    position: absolute;
+    content: "";
+    display: table;
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    background: url("../img/paper.png") no-repeat;
+    bottom: 2px;
+    left: 3px;
+}
+
+.right-column .tyres,
+.right-column .wheels
+{
+    position: relative;
+    margin-top: 16px;
+    width: 105px;
+    height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(121, 135, 141);
+    border-radius: 13px;
+    font-size: 14px;
+    color: #114165;
+    padding-left: 30px;
+    padding-top: 6px;
+    margin-left: 14px;
+}
+
+.right-column .tyres:before,
+.right-column .wheels:before
+{
+    content: "";
+    display: table;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: url("../img/tyre.png") no-repeat;
+    bottom: 2px;
+    left: 3px;
+}
+
+.right-column .tyres-items label,
+.right-column .wheels-items label
+{
+    color: #465961;
+    font-size: 13px;
+}
+
+.right-column .tyres-items,
+.right-column .wheels-items
+{
+    margin-top: 7px;
+}
+
+.right-column input[type="checkbox"]
+{
+    display: none;
+}
+
+.right-column input[type="checkbox"] + label 
+{
+    display: block;
+    line-height: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.right-column input[type="checkbox"] + label:before
+{
+    content: "";
+    position: absolute;
+    left: -24px;
+    bottom: 0;
+    background-image: url("../img/check-b.png");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+}
+
+.right-column .butt-check
+{
+    width: 84px;
+    height: 26px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(167, 171, 174);
+    border-radius: 11px;
+    background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    color: #ffffff;
+    font-size: 11px;
+    margin-left: 23px;
+    margin-top: 14px;
+}
+
+.columns:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.brandlogo
+{
+    margin: 35px 0 24px 114px;
+}
+
+.brandlogo img
+{
+    margin-right: 9px;
+}
+
+.brandlogo .bridge,
+.brandlogo .avon,
+.brandlogo .pirelli,
+.brandlogo .dunlop
+{
+    margin-bottom: 6px;
+}
+
+footer .navigation
+{
+    width: 906px;
+    height: 96px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(36, 42, 60);
+    background-color: #213a4d;
+}
+
+footer .navigation ul
+{
+   margin-left: 307px; 
+   margin-top: 6px;
+}
+
+footer .navigation li
+{
+    display: inline-block;
+    margin-right: 16px;
+}
+
+footer .navigation li:nth-child(1):after
+{
+    content: "";
+    display: table;
+    position: relative;
+    border-right: 2px solid #7a878f;
+    height: 12px;
+    left: 80px;
+    bottom: 12px;
+}
+
+footer .navigation li:nth-child(2):after
+{
+    content: "";
+    display: table;
+    position: relative;
+    border-right: 2px solid #7a878f;
+    height: 12px;
+    left: 66px;
+    bottom: 12px;
+}
+
+footer .navigation li:nth-child(3):after
+{
+    content: "";
+    display: table;
+    position: relative;
+    border-right: 2px solid #7a878f;
+    height: 12px;
+    left: 50px;
+    bottom: 12px;
+}
+
+footer .navigation a
+{
+    color: #bec6c9;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+footer .navigation a:hover
+{
+    color: #4792af;
+}
+
+footer p
+{
+    color: #7f4740;
+    font-size: 10px;
+    margin-left: 376px;
+    margin-top: 5px;
+}
