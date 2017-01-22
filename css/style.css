@@ -7,7 +7,7 @@ body
 .wrapper
 {
     margin: 0 auto;
-    width: 1000px;
+    width: 910px;
 }
 
 * input
@@ -138,33 +138,42 @@ header:after
     left: 32px;
 }
 
-.shape
+.shape_menu
 {
     position: relative;
     left: 511px;
     top: -56px;
     width: 78px;
     height: 23px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(189, 196, 199);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
-.shape:before
+.shape_menu .shape {
+    margin-left: 9px;
+}
+
+.shape li
 {
-    content: "";
-    display: block;
-    position: absolute;
-    background:
-    url("../img/home.png") -2px 4px no-repeat,
-    url("../img/map.png") 15px 7px no-repeat,
-    url("../img/letter.png") 37px 7px no-repeat;
-    width: 60px;
-    height: 30px;
-    left: 14px;
-    
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 1px;
 }
 
 .main-logo img
 {
     margin-top: 9px;
+    position: relative;
+}
+
+.main-logo .logo-zazor
+{
+    position: absolute;
+    top: 107px;
+    left: 222px;
 }
 
 .main-navigation:after
@@ -269,6 +278,24 @@ header:after
     border-radius: 17px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+}
+
+.content-form-object
+{
+    position: relative;
+}
+
+.content-form-left select,
+.content-form-object select
+{
+    position: absolute;
+
+    width: 100px;
+    height: 18px;
+    right: 0;
+    top: 3px;
+    border-bottom: none;
+    outline: none;
 }
 
 .title-form ul li
@@ -587,6 +614,18 @@ header:after
     left: 25px;
     bottom: 0;
     background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+}
+
+.season-checkbox input[type="checkbox"]:checked + label:after
+{
+    content: "";
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    background-image: url("../img/checked-1.png");
     background-repeat: no-repeat;
     width: 10px;
     height: 10px;
@@ -1063,7 +1102,6 @@ header:after
 .right-column
 {
     float: right;
-    margin-right: 92px;
 }
 
 .right-column ul li
@@ -1165,6 +1203,18 @@ header:after
     left: -24px;
     bottom: 0;
     background-image: url("../img/check-b.png");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+}
+
+.right-column input[type="checkbox"]:checked + label:after
+{
+    content: "";
+    position: absolute;
+    left: -24px;
+    bottom: 0;
+    background-image: url("../img/checked.png");
     background-repeat: no-repeat;
     width: 10px;
     height: 10px;
